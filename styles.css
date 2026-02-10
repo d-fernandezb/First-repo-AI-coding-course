@@ -1,0 +1,88 @@
+.first-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.first-button:hover {
+  background-color: #3e8e41;
+}
+
+.second-button {
+  display: none;
+  background-color: #f44336;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.third-button {
+  display: none;
+  background-color: #ff6701bd;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.fourth-button {
+  display: none;
+  background-color: #000000;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-show {
+  display: flex;
+}
+
+.button-hide {
+  display: none;
+}
+
+.secret-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.secret-container-show {
+  display: flex;
+}
+
+.secret-text {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.secret-text-show {
+  display: flex;
+}
